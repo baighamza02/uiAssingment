@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700");
 
 html,
 body {
@@ -15,7 +15,8 @@ body {
   padding-right: 20px;
 }
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 14px;
+  font-weight: 200;
 }
 .nav-logo {
   height: 35px !important;
@@ -25,6 +26,17 @@ body {
 }
 .nav-logo {
   height: 150px;
+}
+
+.nav-home {
+  font-weight: 500;
+}
+.nav-port,
+.nav-about,
+.nav-blog,
+.nav-pages {
+  font-weight: 500;
+  color: #000000;
 }
 
 .banner {
@@ -78,19 +90,30 @@ body {
 
 .columns2-title {
   font-size: 40px;
-  color: #6b6b6b;
-  font-weight: 300;
+  color: #222;
+  font-weight: 100;
+}
+.columns2-caption {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: 200;
 }
 
 .card-title {
   font-size: 20px;
-  color: #3f3f3f;
-  font-weight: 400;
+  color: #000000;
+  font-weight: 200;
 }
+
 .card-text {
   font-size: 14px;
-  color: #555555;
-  font-weight: 400;
+  color: #a0a0a0;
+  font-weight: 300;
+}
+
+.furniture-card-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .card-container {
@@ -149,23 +172,27 @@ h2 {
 .grid-item {
   text-align: center;
   padding: 4px;
+  border-radius: 2%;
+  object-fit: fill;
 }
 .grid-item img {
-  height: 380px;
-  width: 380px;
+  height: 340px;
+  width: 340px;
+  object-fit: cover;
+  border-radius: 2%;
 }
 
 .grid-item h3 {
   color: #333333;
   margin-top: 10px;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 .grid-item p {
   margin-top: 5px;
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .grid-container-insta {
@@ -217,15 +244,18 @@ h2 {
 
 .testimonial {
   font-size: 14px;
+  font-weight: 200;
+  color: #777777;
 }
 
 .full-name {
-  font-weight: bold;
+  font-weight: 200;
+  font-size: 18px;
+  color: black;
   margin-top: 10px;
 }
 
 .user-title {
-  font-style: italic;
   color: #999;
 }
 
@@ -241,10 +271,12 @@ h2 {
 }
 
 .footer-container div h4 {
-  font-weight: 400;
+  font-weight: 200;
 }
 .footer-container div p {
   font-weight: 300;
+  font-size: 14px;
+  color: #777777;
 }
 
 .footer-bottom {
@@ -270,7 +302,7 @@ input[type="email"] {
   padding: 10px;
   border-radius: 20px;
   background-color: #f2f2f2;
-  width: 250px;
+  width: 300px;
   margin-right: 10px;
 }
 
@@ -301,7 +333,6 @@ input[type="email"] {
 .insta-feed-row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 .insta-feed-item {
   height: 80px;
@@ -312,7 +343,8 @@ input[type="email"] {
 
 .copyright {
   font-size: 14px;
-  color: #6b6b6b;
+  color: #969696;
+  font-weight: 200;
 }
 @media (max-width: 768px) {
   .jumbotron {
@@ -355,6 +387,10 @@ input[type="email"] {
 }
 
 @media (max-width: 576px) {
+  .furniture-card-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
   .banner-title {
     text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.86);
   }
