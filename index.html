@@ -12,24 +12,484 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="style.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Lorem ipsum dolor sit amet.</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ullam
-      labore fugit laudantium. Laboriosam voluptatem a odio nihil. Officiis
-      explicabo assumenda repellat. Consequatur, incidunt aut.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ullam
-      labore fugit laudantium. Laboriosam voluptatem a odio nihil. Officiis
-      explicabo assumenda repellat. Consequatur, incidunt aut.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ullam
-      labore fugit laudantium. Laboriosam voluptatem a odio nihil. Officiis
-      explicabo assumenda repellat. Consequatur, incidunt aut.
-    </p>
+    <header class="d-none d-md-block">
+      <div class="container-fluid">
+        <div class="row header-items">
+          <div class="col-3 phone"><i class="fa fa-phone fa-flip-horizontal phone-item" aria-hidden="true"></i> 012-333-444-555</div>
+          <div class="col-6 socials text-right">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </div>
+          <div class="col-2 quote text-center">Get Free Quote</div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="nav-logo" src="img/logo.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--ShowCase-->
+
+    <div class="banner">
+      <h1 class="banner-title">Creativity<br />Beyond<br />Life</h1>
+      <div class="banner-btn">
+        <a href="#">
+          <button type="button" class="btn btn-primary btn-lg">
+            Hire Us Now
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!--2-columns text-->
+    <div class="container-fluid pt-5">
+      <div class="row text-center">
+        <div class="col columns2-title">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, fugiat!
+        </div>
+      </div>
+      <div class="row text-center columns2-caption pt-2">
+        <div class="col">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
+          suscipit facere. Soluta aliquam odio temporibus!
+        </div>
+      </div>
+    </div>
+
+    <!--Furniture Cards-->
+    <div class="container-fluid">
+      <div class="row card-container">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/xn1.png" alt="" class="class-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                tenetur aperiam! Quis distinctio vero sit atque ad!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/xn2.png" alt="" class="class-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                tenetur aperiam! Quis distinctio vero sit atque ad!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/xn3.png" alt="" class="class-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                tenetur aperiam! Quis distinctio vero sit atque ad!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Mobile-Only-Section-->
+    <div class="container-fluid bg-dark d-block d-md-none">
+      <div class="row mobile-only my-2 py-3">
+        <div class="col-12 text-center">
+          <div class="circle mx-auto"><h4>1.5K</h4></div>
+          <br>
+          <h5>Happy Clients</h5>
+        </div>
+        <div class="col-12 text-center mt-1">
+          <div class="circle mx-auto"><h4>10</h4></div>
+          <br>
+          <h5>Years of Experience</h5>
+        </div>
+        <div class="col-12 text-center mt-1">
+          <div class="circle mx-auto"><h4>250</h4></div>
+          <br>
+          <h5>Professionals</h5>
+        </div>
+        <div class="col-12 text-center mt-1">
+          <div class="circle mx-auto"><h4>369</h4></div>
+          <br>
+          <h5>On Going Jobs</h5>
+        </div>
+        <div class="col-12 text-left mt-5">
+          <h2>We can be your digital Problems Solution Partner</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            ipsa totam dolores aliquam dignissimos velit, est recusandae quidem
+            quam reprehenderit ad maxime distinctio libero cum.
+          </p>
+          <div class="row">
+            
+              <a href="#">
+                <button type="button" class="btn btn-outline-primary btn-lg ml-2">
+                  What We Offer
+                </button>
+              </a>
+            
+            
+              <a href="#">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-lg ml-2"
+                >
+                  Get A Free Quote
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Two Column Section -->
+    <div class="container-fluid">
+      <div class="row text-center padding">
+        <div class="col columns2-title">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, fugiat!
+        </div>
+      </div>
+      <div class="row text-center columns2-caption pt-2">
+        <div class="col">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
+          suscipit facere. Soluta aliquam odio temporibus!
+        </div>
+      </div>
+    </div>
+
+    <!--- List Of Links -->
+    <ul class="nav justify-content-center padding">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">All Categories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Branding</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Image Manipulation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Creative Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Web Design</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">More</a>
+      </li>
+    </ul>
+
+    <!--Image Gallery-->
+    <div class="container grid-container">
+      <div class="row text-center justify-content-center">
+        <div class="grid-item col-md-6 col-lg-4 col-xl-4">
+          <img class="img-fluid" src="img/xn1.png" alt="Image 1" />
+          <h3>Title 1</h3>
+          <p>Caption 1</p>
+        </div>
+        <div class="grid-item col-md-6 col-lg-4 col-xl-4">
+          <img class="img-fluid" src="img/xn2.png" alt="Image 1" />
+          <h3>Title 1</h3>
+          <p>Caption 1</p>
+        </div>
+        <div class="grid-item col-md-6 col-lg-4 col-xl-4">
+          <img class="img-fluid" src="img/xn3.png" alt="Image 1" />
+          <h3>Title 1</h3>
+          <p>Caption 1</p>
+        </div>
+        <div class="grid-item col-md-6 col-lg-4 col-xl-4">
+          <img class="img-fluid" src="img/xn4.png" alt="Image 1" />
+          <h3>Title 1</h3>
+          <p>Caption 1</p>
+        </div>
+        <div class="grid-item col-md-6 col-lg-4 col-xl-4">
+          <img class="img-fluid" src="img/xn5.png" alt="Image 1" />
+          <h3>Title 1</h3>
+          <p>Caption 1</p>
+        </div>
+        <div class="grid-item col-md-6 col-lg-4 col-xl-4">
+          <img class="img-fluid" src="img/xn6.png" alt="Image 1" />
+          <h3>Title 1</h3>
+          <p>Caption 1</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Testimonials-->
+    <div id="fixed">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-xl-6">
+            <div class="user-card mx-auto">
+              <img
+                class="profile-pic"
+                src="img/user.png"
+                alt="Profile picture"
+              />
+              <div class="testimonial">
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  ut est eget sapien ullamcorper lacinia. Donec euismod, velit
+                  vel lacinia luctus, velit velit aliquet velit, vel lacinia
+                  velit velit vel velit."
+                </p>
+                <div class="full-name">John Doe</div>
+                <div class="user-title">CEO, Example Company</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6 d-none d-lg-block">
+            <div class="user-card mx-auto">
+              <img
+                class="profile-pic"
+                src="img/user.png"
+                alt="Profile picture"
+              />
+              <div class="testimonial">
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  ut est eget sapien ullamcorper lacinia. Donec euismod, velit
+                  vel lacinia luctus, velit velit aliquet velit, vel lacinia
+                  velit velit vel velit."
+                </p>
+                <div class="full-name">John Doe</div>
+                <div class="user-title">CEO, Example Company</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-text">
+            <h4>Top Products</h4>
+            <br />
+            <p>Manage Wesbite</p>
+            <p>Manage Reputation</p>
+            <p>Powerful Tools</p>
+            <p>Marketting Service</p>
+          </div>
+        
+        <div class="footer-email">
+          <h4>News Letter</h4>
+            <br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="input-container">
+              <input type="email" placeholder="Your Email Address" />
+              <button class="email-btn" type="submit">Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-insta">
+          <h4>Instagram Feed</h4>
+            <br />
+            <div class="insta-feed-row">
+              <img
+                  src="img/insta-img-1.jpg"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+                <img
+                  src="img/insta-img-2.jpeg"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="img/insta-img-3.jpg"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+                <img
+                  src="img/insta-img-4.jpeg"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+
+
+
+            </div>
+            <div class="insta-feed-row">
+              
+              <img
+                  src="img/insta-img-5.png"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+                <img
+                  src="img/insta-img-2.jpeg"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="img/insta-img-1.jpg"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+                <img
+                  src="img/insta-img-5.png"
+                  class="insta-feed-item"
+                  alt="Boat on Calm Water"
+                />
+
+
+
+            </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          nihil magnam ducimus, culpa, quia fugit ipsum alias earum minus unde
+          accusantium.</div>
+        <div class="footer-socials">
+        
+          <div>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-youtube fa-lg"></i>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+    </footer>
   </body>
 </html>
