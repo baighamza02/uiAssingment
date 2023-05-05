@@ -246,12 +246,7 @@ h2 {
 .footer-container div p {
   font-weight: 300;
 }
-.footer-text {
-}
-.footer-email {
-}
-.footer-insta {
-}
+
 .footer-bottom {
   padding-top: 10%;
   background-color: #333333;
@@ -275,6 +270,8 @@ input[type="email"] {
   padding: 10px;
   border-radius: 20px;
   background-color: #f2f2f2;
+  width: 250px;
+  margin-right: 10px;
 }
 
 .email-btn {
@@ -284,7 +281,7 @@ input[type="email"] {
   border: none;
   border-radius: 20px;
   padding: 10px 15px;
-  margin-left: 10px;
+
   cursor: pointer;
 }
 
@@ -304,6 +301,7 @@ input[type="email"] {
 .insta-feed-row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .insta-feed-item {
   height: 80px;
@@ -312,7 +310,8 @@ input[type="email"] {
   margin-right: 10px;
 }
 
-.copyright-text {
+.copyright {
+  font-size: 14px;
   color: #6b6b6b;
 }
 @media (max-width: 768px) {
@@ -342,30 +341,75 @@ input[type="email"] {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   /* .input-container {
     align-items: center;
     flex-direction: column;
     align-items: flex-start;
   } */
-  .email-btn {
-    margin-top: 10px;
+
+  .footer-email {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
 @media (max-width: 576px) {
+  .banner-title {
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.86);
+  }
   .input-container {
     align-items: center;
     flex-direction: column;
     align-items: flex-start;
   }
-  .email-btn {
-    margin-top: 10px;
+
+  .testimonial {
+    font-size: 10px;
+  }
+
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .insta-feed-item {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+  }
+
+  .footer-text {
+    margin-bottom: 30px;
+  }
+
+  .footer-email {
+    padding-bottom: 30px;
   }
 }
 
 @media (max-width: 840px) {
   .footer-bottom {
     flex-direction: column;
+  }
+  .footer-email {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer-text {
+    margin-bottom: 30px;
+  }
+  input[type="email"] {
+    margin-bottom: 10px;
+  }
+  .email-btn {
+    margin-bottom: 10px;
   }
 }
