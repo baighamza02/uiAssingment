@@ -44,6 +44,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 80vh;
+  min-height: 400px;
   width: 100%;
   position: relative;
   display: flex;
@@ -215,7 +216,7 @@ h2 {
   background-image: url("img/testimonial-bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 45%;
+  height: 394px;
   width: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -291,8 +292,10 @@ h2 {
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-left: 6%;
   padding-right: 6%;
+  padding-bottom: 10px;
 }
 .input-container {
   display: flex;
@@ -330,7 +333,7 @@ input[type="email"] {
 .footer-socials div {
   background-color: black;
   padding: 10px;
-  margin: 10px;
+  margin-right: 10px;
 }
 .footer-socials div a {
   color: white;
@@ -434,6 +437,10 @@ input[type="email"] {
 @media (max-width: 840px) {
   .footer-bottom {
     flex-direction: column;
+    align-items: flex-start;
+  }
+  .copyright {
+    margin-bottom: 10px;
   }
   .footer-email {
     margin-left: 0px;
